@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="600"
+   height="500"
+   viewBox="0 0 600 500"
+   sodipodi:docname="oroslogo.svg"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="0.87124463"
+     inkscape:cx="297.84976"
+     inkscape:cy="265.71182"
+     inkscape:window-width="1536"
+     inkscape:window-height="811"
+     inkscape:window-x="-8"
+     inkscape:window-y="-7"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1">
+    <path
+       id="path1"
+       style="fill:#b89c5a;fill-opacity:1;stroke:none;stroke-width:1.21599;stroke-opacity:1"
+       d="M 301.75849,1.7992392 2.3089961,497.95931 c 0.2223051,2.0329 30.9663099,1.52706 44.5004499,0.46891 C 129.72706,437.3232 221.02809,373.79473 300.82802,319.27441 c 31.58314,22.10951 51.02818,42.16457 76.72499,60.93727 70.04286,48.75418 114.85218,76.39882 177.09957,118.1022 14.70955,1.01475 35.62228,1.10325 46.04027,-0.21931 z M 301.29457,74.293285 C 370.35576,187.26278 453.7836,316.85034 519.84348,431.40441 470.16929,391.44878 411.02018,349.83407 361.346,305.76987 c -20.48547,-29.50766 -43.28957,-63.46692 -60.4298,-93.33176 -15.27469,24.03161 -37.23025,57.53734 -52.10001,77.44975 -6.3189,-4.99253 -11.26966,-11.0606 -15.17883,-14.91418 -20.41892,20.50166 -52.13773,56.16833 -85.1476,89.94633 C 127.74058,386.15202 98.202265,416.6298 78.91863,432.13386 138.19058,339.6151 245.54068,166.06923 301.29457,74.293285 Z"
+       sodipodi:nodetypes="ccccccccccccccscc"
+       inkscape:label="OROS Logo" />
+  </g>
+</svg>

@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.container {
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    background-color: #1a1a1a;
+}
+
+nav {
+    background-color: #1a1a1a;
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.nav__row {
+    padding: 0 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo--wrapper {
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #f8f8f8;
+}
+
+.logo__text {
+    color: #f8f8f8;
+    font-size: 48px;
+    font-weight: 600;
+    letter-spacing: 7px;
+    cursor: default;
+    transition: letter-spacing 300ms ease;
+}
+
+.logo__text:hover {
+    letter-spacing: 10px;
+    transition: letter-spacing 600ms ease;
+}
+
+.logo__text--thin {
+    display: none;
+    font-size: 40px;
+    font-weight: 200;
+    margin-left: 8px;
+}
+
+.nav__links {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    color: #f8f8f8;
+    font-size: 18px;
+    letter-spacing: 2px;
+    transition: color 300ms ease;
+    display: none;
+}
+
+.insta {
+    font-size: 36px;
+    color: #f8f8f8;
+}
+
+.nav__link:hover {
+    color: #d4a017;
+}
+
+/* 
+
+HEADER 
+
+*/
+
+header {
+    height: calc(100vh - 80px);
+    padding: 0 24px;
+}
+
+header .row {
+    height: calc(100vh - 200px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__logo--wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    height: 150px;
+}
+
+.logo__text--primary {
+    font-size: 64px;
+    line-height: 1;
+    letter-spacing: 7px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.logo__text--secondary {
+    font-size: 25px;
+    line-height: 1;
+    letter-spacing: 2px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.header__slogan {
+    font-size: 20px;
+    font-weight: 400;
+    max-width: 300px;
+    letter-spacing: 1px;
+    line-height: 1.25;
+    margin-top: 24px;
+    color: #b89c5a;
+    text-align: center;
+}
+
+.header__message {
+    margin-top: 64px;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 3px;
+    color: #cccccc;
+}
