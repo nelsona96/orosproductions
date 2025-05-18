@@ -102,18 +102,23 @@ header .row {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: relative;
 }
 
-.header__wrapper {
+.header__img--wrapper {
+    width: 100vw;
+    filter: brightness(1.1) saturate(.7) hue-rotate(-7deg);
+}
+
+.header__img {
+    width: 100%;
+}
+
+.header__message--wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
     width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 30%);
+    margin: 64px 0;
 }
 
 .header__logo--wrapper {
@@ -154,7 +159,7 @@ header .row {
 }
 
 .header__message {
-    margin-top: 64px;
+    margin-bottom: 64px;
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 3px;
