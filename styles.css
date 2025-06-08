@@ -98,18 +98,21 @@ VIDEO
 .landing-video__wrapper {
   width: 100%;
   max-height: calc(100vh - 82px);
+  aspect-ratio: 16/9;
+  pointer-events: none;
   overflow: hidden;
   border-top: 1px solid #b89c5a;
   border-bottom: 1px solid #b89c5a;
   display: flex;
   align-items: center;
   justify-content: center;
+  filter: contrast(120%);
 }
 
 .landing-video {
-  width: 100%;
+  width: 300%;
+  height: 120%;
   transform: scale(1.1);
-  filter: contrast(120%);
 }
 
 /* 
