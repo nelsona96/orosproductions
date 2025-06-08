@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg1"
+   width="600"
+   height="500"
+   viewBox="0 0 600 500"
+   sodipodi:docname="oroslogo2.svg"
+   inkscape:version="1.4.2 (ebf0e94, 2025-05-08)"
+   inkscape:export-filename="oroslogo2.svg"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#000000"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showguides="true"
+     inkscape:zoom="1.232126"
+     inkscape:cx="432.99144"
+     inkscape:cy="143.24834"
+     inkscape:window-width="1536"
+     inkscape:window-height="811"
+     inkscape:window-x="-8"
+     inkscape:window-y="-7"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="g1">
+    <path
+       id="path1"
+       style="display:none;fill:#b89c5a;fill-opacity:1;stroke:none;stroke-width:0.71668;stroke-opacity:1"
+       d="m 301.65273,103.95195 -176.4896,292.42691 c 0.13103,1.19815 18.25093,0.90002 26.22769,0.27636 48.86999,-36.01408 102.68101,-73.45651 149.71351,-105.5897 18.61447,13.03091 30.07499,24.85096 45.22019,35.91522 41.28187,28.73474 67.69159,45.02795 104.37897,69.60709 8.66952,0.59808 20.99507,0.65024 27.13522,-0.12925 z m -0.27343,42.72655 c 40.7033,66.58198 89.87401,142.95832 128.8084,210.47422 -29.27699,-23.54906 -64.1383,-48.07594 -93.41528,-74.04651 -12.07373,-17.39123 -25.51401,-37.40614 -35.61612,-55.00789 -9.0026,14.16376 -21.94277,33.91137 -30.70671,45.64735 -3.72424,-2.9425 -6.64212,-6.5189 -8.94611,-8.79012 -12.0345,12.08327 -30.72894,33.1045 -50.1843,53.01258 -12.22916,12.51373 -29.63845,30.47673 -41.00385,39.61451 34.93372,-54.52872 98.20374,-156.81322 131.06397,-210.90414 z"
+       sodipodi:nodetypes="ccccccccccccccscc"
+       inkscape:label="OROS Logo"
+       sodipodi:insensitive="true" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer2"
+     inkscape:label="CIRCLE"
+     transform="translate(352.23671,-68.174847)"
+     style="fill:#666666">
+    <path
+       d="M 33.476181,370.06938 -57.496476,288.79594 -157.77187,359.81352 A 128.12846,126.20463 0 0 0 -57.51796,407.4268 128.12846,126.20463 0 0 0 33.476181,370.06938 Z"
+       style="stroke-width:0.639321;fill:#e8c07d;fill-opacity:1"
+       id="path30" />
+    <path
+       d="m -57.51796,155.01664 a 128.12846,126.20463 0 0 0 -128.12891,126.20508 128.12846,126.20463 0 0 0 12.3125,53.98438 l 34.10352,-39.04297 25.85547,-42.33594 12.78906,11.94727 42.16211,-63.10352 47.630859,78.79688 64.271485,62.79687 A 128.12846,126.20463 0 0 0 70.608993,281.22172 128.12846,126.20463 0 0 0 -57.51796,155.01664 Z"
+       style="display:inline;fill:#e8c07d;fill-opacity:1;stroke-width:0.639321"
+       id="path27" />
+  </g>
+  <g
+     inkscape:groupmode="layer"
+     id="layer1"
+     inkscape:label="OROS Logo 2">
+    <path
+       d="m 405.71484,276.08984 -64.27148,-62.79687 -47.63086,-78.79688 -42.16211,63.10352 -12.78906,-11.94727 -25.85547,42.33594 -34.10352,39.04297 a 128.12846,126.20463 0 0 0 15.5625,24.60742 l 100.27539,-71.01758 90.97266,81.27344 a 128.12846,126.20463 0 0 0 20.00195,-25.80469 z"
+       style="fill:#e8c07d;stroke-width:1.12487;fill-opacity:1"
+       id="path29" />
+  </g>
+</svg>

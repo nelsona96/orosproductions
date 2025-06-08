@@ -8,9 +8,6 @@
     font-optical-sizing: auto;
 }
 
-.container {
-}
-
 .row {
     width: 100%;
     max-width: 1200px;
@@ -22,10 +19,14 @@ body {
 }
 
 nav {
-    background-color: #1a1a1a;
+    background-color: rgba(26, 26, 26, 0.6);
+    backdrop-filter: blur(60px);
     height: 80px;
     display: flex;
     align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .nav__row {
@@ -81,47 +82,66 @@ a {
 .insta {
     font-size: 36px;
     color: #f8f8f8;
+    transition: color 300ms ease;
 }
 
-.nav__link:hover {
+.insta:hover {
     color: #d4a017;
 }
 
 /* 
 
-HEADER 
+VIDEO 
 
 */
 
-header {
-    height: calc(100vh - 80px);
-    padding: 0 24px;
+.landing-video__wrapper {
+    width: 100%;
+    max-height: calc(100vh - 82px);
+    overflow: hidden;
+    border-top: 2px solid #b89c5a;
+    border-bottom: 2px solid #b89c5a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-header .row {
+.landing-video {
+    width: 100%;
+    transform: scale(1.1);
+    filter: contrast(120%);
+}
+
+/* 
+
+LANDING 
+
+*/
+
+#landing .row {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.header__img--wrapper {
+.landing__img--wrapper {
     width: 100vw;
     filter: brightness(1.1) saturate(.7) hue-rotate(-7deg);
 }
 
-.header__img {
+.landing__img {
     width: 100%;
 }
 
-.header__message--wrapper {
+.landing__message--wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin: 64px 0;
+    margin: 72px 0 320px 0;
 }
 
-.header__logo--wrapper {
+.landing__logo--wrapper {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,6 +157,7 @@ header .row {
     letter-spacing: 7px;
     font-weight: 600;
     color: #fff;
+    margin-bottom: 2px;
 }
 
 .logo__text--secondary {
@@ -145,23 +166,63 @@ header .row {
     letter-spacing: 2px;
     font-weight: 400;
     color: #fff;
+    margin-bottom: 24px;
 }
 
-.header__slogan {
+.landing__slogan {
     font-size: 20px;
     font-weight: 400;
     max-width: 300px;
     letter-spacing: 1px;
     line-height: 1.25;
-    margin-top: 24px;
+    margin-bottom: 24px;
     color: #b89c5a;
     text-align: center;
 }
 
-.header__message {
+.scroll-arrow {
+    display: none;
+  width: 3rem;
+  height: 3rem;
+  color: #f8f8f8;
+  animation: float 1200ms infinite ease-in-out alternate-reverse;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    25% {
+        transform: translateY(3px);
+    }
+
+    50% {
+        transform: translateY(0);
+    }
+
+    75% {
+        transform: translateY(0);
+    }
+
+}
+
+.landing__message {
     margin-bottom: 64px;
     font-size: 16px;
     font-weight: 300;
     letter-spacing: 3px;
     color: #cccccc;
+}
+
+/* 
+
+MEDIA QUERIES 
+
+*/
+
+@media (max-width: 680px) {
+    .scroll-arrow {
+        display: block;
+    }
 }
