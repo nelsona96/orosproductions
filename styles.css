@@ -101,12 +101,12 @@ VIDEO
   width: 100%;
   max-height: calc(100vh - 81px);
   pointer-events: none;
-  overflow: hidden;
   border-top: 1px solid #b89c5a;
   border-bottom: 1px solid #b89c5a;
+  filter: contrast(110%);
   display: flex;
   align-items: center;
-  filter: contrast(110%);
+  overflow: hidden;
 }
 
 .landing-video {
