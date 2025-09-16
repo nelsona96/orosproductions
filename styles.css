@@ -19,13 +19,15 @@ body {
 }
 
 nav {
-  background-color: rgba(26, 26, 26, 0.6);
-  backdrop-filter: blur(60px);
+  background-color: rgba(26, 26, 26, 0.5);
+  backdrop-filter: blur(20px);
+  width: 100%;
   height: 80px;
   display: flex;
   align-items: center;
   position: sticky;
   top: 0;
+  left: 0;
   z-index: 100;
 }
 
@@ -86,7 +88,7 @@ a {
 }
 
 .insta:hover {
-  color: #d4a017;
+  color: #b89c5a;
 }
 
 /* 
@@ -97,22 +99,19 @@ VIDEO
 
 .landing-video__wrapper {
   width: 100%;
-  max-height: calc(100vh - 82px);
-  aspect-ratio: 16/9;
+  max-height: calc(100vh - 81px);
   pointer-events: none;
   overflow: hidden;
   border-top: 1px solid #b89c5a;
   border-bottom: 1px solid #b89c5a;
   display: flex;
   align-items: center;
-  justify-content: center;
-  filter: contrast(120%);
+  filter: contrast(110%);
 }
 
 .landing-video {
-  width: 300%;
-  height: 120%;
-  transform: scale(1.1);
+  aspect-ratio: 16/9;
+  transform: scale(1);
 }
 
 /* 
@@ -185,6 +184,7 @@ LANDING
 
 .scroll-arrow {
   display: none;
+  position: absolute;
   width: 3rem;
   height: 3rem;
   color: #f8f8f8;

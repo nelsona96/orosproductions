@@ -9,6 +9,7 @@
       src="https://kit.fontawesome.com/3b48615774.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/@mux/mux-player"></script>
   </head>
   <body>
     <nav>
@@ -44,12 +45,35 @@
             >
             Yo browser just cain't play dis video, I reckon.
           </video> -->
-          <iframe
+
+          <mux-player
+            playback-id="jSWsbaMipVNh8w01jPxVOnRAM38zjd501uKejP1e86dhg"
+            stream-type="on-demand"
+            autoplay="muted"
+            nocontrols
+            loop
+            class="landing-video"
+          ></mux-player>
+
+          <!-- <iframe
             src="https://www.youtube.com/embed/AHQg6e61WW4?autoplay=1&mute=1&loop=1&controls=0&color=white&modestbranding=0&rel=0&playsinline=1&enablejsapi=1"
             frameborder="0"
             class="landing-video"
-          ></iframe>
+          ></iframe> -->
         </figure>
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="currentColor"
+          viewBox="0 0 16 16"
+          class="scroll-arrow"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"
+          />
+        </svg>
         <div class="landing-content">
           <div class="container">
             <div class="row">
@@ -62,19 +86,6 @@
                 <h2 class="landing__slogan">
                   Scaling new heights in cinematic storytelling
                 </h2>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  viewBox="0 0 16 16"
-                  class="scroll-arrow"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1"
-                  />
-                </svg>
               </div>
               <h3 class="landing__message">Website coming soon.</h3>
             </div>
