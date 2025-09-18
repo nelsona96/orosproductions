@@ -97,7 +97,7 @@ a {
 
 .phone {
   font-size: 24px;
-  transform: rotate(20deg) translateY(-1.5px)
+  transform: rotate(20deg);
 }
 
 .nav__link:hover {
