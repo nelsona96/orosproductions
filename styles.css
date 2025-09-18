@@ -19,16 +19,21 @@ body {
 }
 
 nav {
-  background-color: rgba(26, 26, 26, 0.5);
-  backdrop-filter: blur(20px);
   width: 100%;
-  height: 80px;
+  height: 60px;
   display: flex;
   align-items: center;
-  position: sticky;
+  /* position: sticky; */
+  position: fixed;
   top: 0;
   left: 0;
   z-index: 100;
+  transition: all 300ms ease-in-out;
+}
+
+.scrolled {
+  background-color: rgba(26, 26, 26, 0.6);
+  backdrop-filter: blur(30px);
 }
 
 .nav__row {
@@ -77,8 +82,11 @@ a {
   color: #f8f8f8;
   font-size: 18px;
   letter-spacing: 2px;
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   transition: color 300ms ease;
-  display: none;
 }
 
 .insta {
@@ -87,7 +95,12 @@ a {
   transition: color 300ms ease;
 }
 
-.insta:hover {
+.phone {
+  font-size: 24px;
+  transform: rotate(20deg) translateY(-1.5px)
+}
+
+.nav__link:hover {
   color: #b89c5a;
 }
 
@@ -99,9 +112,10 @@ VIDEO
 
 .landing-video__wrapper {
   width: 100%;
-  max-height: calc(100vh - 81px);
+  /* max-height: calc(100vh - 60px); */
+  /* border-top: 1px solid #b89c5a; */
+  max-height: 100vh;
   pointer-events: none;
-  border-top: 1px solid #b89c5a;
   border-bottom: 1px solid #b89c5a;
   filter: contrast(110%);
   display: flex;
@@ -111,7 +125,6 @@ VIDEO
 
 .landing-video {
   aspect-ratio: 16/9;
-  transform: scale(1);
 }
 
 /* 
@@ -217,6 +230,10 @@ LANDING
   color: #cccccc;
 }
 
+mux-player {
+  --controls: none;
+}
+
 /* 
 
 MEDIA QUERIES 
@@ -224,11 +241,26 @@ MEDIA QUERIES
 */
 
 @media (max-width: 680px) {
+  nav {
+    height: 50px;
+    position: sticky;
+    background-color: rgba(26, 26, 26, 0.5);
+    backdrop-filter: blur(20px);
+  }
+
+  .logo__text {
+    font-size: 36px;
+  }
+
   .scroll-arrow {
     display: block;
   }
 
+  .landing-video__wrapper {
+    border-top: 1px solid #b89c5a;
+  }
+
   .landing__message--wrapper {
-    margin: 48px 0 320px 0;
+    margin: 128px 0 320px 0;
   }
 }

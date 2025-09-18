@@ -10,6 +10,7 @@
       crossorigin="anonymous"
     ></script>
     <script src="https://cdn.jsdelivr.net/npm/@mux/mux-player"></script>
+    <script src="index.js" defer></script>
   </head>
   <body>
     <nav>
@@ -20,13 +21,15 @@
           </h3>
         </div>
         <div class="nav__links">
-          <a href="" class="nav__link">Book Us</a>
           <a
             href="https://www.instagram.com/oros_pro/?igsh=MWZpaGRlZmhvbDNrYQ%3D%3D#"
             target="_blank"
-            class="insta"
+            class="nav__link insta"
           >
             <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a href="tel:603-425-4493" class="nav__link">
+            <i class="fa-solid fa-phone phone"></i>
           </a>
         </div>
       </div>
@@ -50,7 +53,8 @@
             playback-id="jSWsbaMipVNh8w01jPxVOnRAM38zjd501uKejP1e86dhg"
             stream-type="on-demand"
             autoplay="muted"
-            nocontrols
+            start-time="7"
+            thumbnail-time="7"
             loop
             class="landing-video"
           ></mux-player>
